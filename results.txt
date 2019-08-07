@@ -1,0 +1,206 @@
+C:\Users\Zoli\AppData\Local\Programs\Python\Python36\python.exe C:/Users/Zoli/PycharmProjects/Reddit_ChatBot/main.py
+45127 45127 11282 11282
+2019-05-23 12:43:26.153302: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-05-23 12:43:26.451807: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1405] Found device 0 with properties: 
+name: GeForce GTX 970 major: 5 minor: 2 memoryClockRate(GHz): 1.2155
+pciBusID: 0000:01:00.0
+totalMemory: 4.00GiB freeMemory: 3.30GiB
+2019-05-23 12:43:26.452318: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-05-23 12:43:27.705977: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-05-23 12:43:27.706254: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:971]      0 
+2019-05-23 12:43:27.706438: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:984] 0:   N 
+2019-05-23 12:43:27.708528: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3021 MB memory) -> physical GPU (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0, compute capability: 5.2)
+(10, 10) (10, 10)
+Encoder hidden shape(batch size, units):(10, 256), output shape(batch size, sequence length, units):(10, 10, 256)
+Decoder input shape(batch size, sequence length):(10, 1), hidden shape(batch size, units):(10, 256)
+CHECKPOINT:  ./training_checkpoints\ckpt-30
+hi
+[[1, 398, 2]]
+[[  1 398   2   0   0   0   0   0   0   0]]
+tf.Tensor([[  1 398   2   0   0   0   0   0   0   0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 467
+Prediction: hello
+Decoder input: tf.Tensor([[467]], shape=(1, 1), dtype=int32)
+Predict ID: 4
+Prediction: !
+Decoder input: tf.Tensor([[4]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> hi <end>
+Predicted response: hello ! 
+how are you ?
+[[1, 52, 17, 10, 4, 2]]
+[[ 1 52 17 10  4  2  0  0  0  0]]
+tf.Tensor([[ 1 52 17 10  4  2  0  0  0  0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 8
+Prediction: i
+Decoder input: tf.Tensor([[8]], shape=(1, 1), dtype=int32)
+Predict ID: 48
+Prediction: did
+Decoder input: tf.Tensor([[48]], shape=(1, 1), dtype=int32)
+Predict ID: 14
+Prediction: not
+Decoder input: tf.Tensor([[14]], shape=(1, 1), dtype=int32)
+Predict ID: 5600
+Prediction: realize
+Decoder input: tf.Tensor([[5600]], shape=(1, 1), dtype=int32)
+Predict ID: 13
+Prediction: that
+Decoder input: tf.Tensor([[13]], shape=(1, 1), dtype=int32)
+Predict ID: 3
+Prediction: .
+Decoder input: tf.Tensor([[3]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> how are you ? <end>
+Predicted response: i did not realize that . 
+are you ok ?
+[[1, 17, 10, 218, 4, 2]]
+[[  1  17  10 218   4   2   0   0   0   0]]
+tf.Tensor([[  1  17  10 218   4   2   0   0   0   0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 19
+Prediction: are
+Decoder input: tf.Tensor([[19]], shape=(1, 1), dtype=int32)
+Predict ID: 10
+Prediction: you
+Decoder input: tf.Tensor([[10]], shape=(1, 1), dtype=int32)
+Predict ID: 6
+Prediction: ?
+Decoder input: tf.Tensor([[6]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> are you ok ? <end>
+Predicted response: are you ? 
+yes i am 
+[[1, 63, 8, 40, 2]]
+[[ 1 63  8 40  2  0  0  0  0  0]]
+tf.Tensor([[ 1 63  8 40  2  0  0  0  0  0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 189
+Prediction: hey
+Decoder input: tf.Tensor([[189]], shape=(1, 1), dtype=int32)
+Predict ID: 1359
+Prediction: kevin
+Decoder input: tf.Tensor([[1359]], shape=(1, 1), dtype=int32)
+Predict ID: 22
+Prediction: in
+Decoder input: tf.Tensor([[22]], shape=(1, 1), dtype=int32)
+Predict ID: 146
+Prediction: again
+Decoder input: tf.Tensor([[146]], shape=(1, 1), dtype=int32)
+Predict ID: 6
+Prediction: ?
+Decoder input: tf.Tensor([[6]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> yes i am  <end>
+Predicted response: hey kevin in again ? 
+where are you ?
+[[1, 125, 17, 10, 4, 2]]
+[[  1 125  17  10   4   2   0   0   0   0]]
+tf.Tensor([[  1 125  17  10   4   2   0   0   0   0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 15224
+Prediction: deepest
+Decoder input: tf.Tensor([[15224]], shape=(1, 1), dtype=int32)
+Predict ID: 3
+Prediction: .
+Decoder input: tf.Tensor([[3]], shape=(1, 1), dtype=int32)
+Predict ID: 3
+Prediction: .
+Decoder input: tf.Tensor([[3]], shape=(1, 1), dtype=int32)
+Predict ID: 3
+Prediction: .
+Decoder input: tf.Tensor([[3]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> where are you ? <end>
+Predicted response: deepest . . . 
+who are you ?
+[[1, 69, 17, 10, 4, 2]]
+[[ 1 69 17 10  4  2  0  0  0  0]]
+tf.Tensor([[ 1 69 17 10  4  2  0  0  0  0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 8
+Prediction: i
+Decoder input: tf.Tensor([[8]], shape=(1, 1), dtype=int32)
+Predict ID: 37
+Prediction: am
+Decoder input: tf.Tensor([[37]], shape=(1, 1), dtype=int32)
+Predict ID: 938
+Prediction: dumb
+Decoder input: tf.Tensor([[938]], shape=(1, 1), dtype=int32)
+Predict ID: 46
+Prediction: can
+Decoder input: tf.Tensor([[46]], shape=(1, 1), dtype=int32)
+Predict ID: 14
+Prediction: not
+Decoder input: tf.Tensor([[14]], shape=(1, 1), dtype=int32)
+Predict ID: 3
+Prediction: .
+Decoder input: tf.Tensor([[3]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> who are you ? <end>
+Predicted response: i am dumb can not . 
+what is the meaning of life ?
+[[1, 20, 5, 7, 3869, 21, 180, 4, 2]]
+[[   1   20    5    7 3869   21  180    4    2    0]]
+tf.Tensor([[   1   20    5    7 3869   21  180    4    2    0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 28
+Prediction: what
+Decoder input: tf.Tensor([[28]], shape=(1, 1), dtype=int32)
+Predict ID: 5
+Prediction: is
+Decoder input: tf.Tensor([[5]], shape=(1, 1), dtype=int32)
+Predict ID: 7
+Prediction: the
+Decoder input: tf.Tensor([[7]], shape=(1, 1), dtype=int32)
+Predict ID: 1812
+Prediction: biggest
+Decoder input: tf.Tensor([[1812]], shape=(1, 1), dtype=int32)
+Predict ID: 3544
+Prediction: grouper
+Decoder input: tf.Tensor([[3544]], shape=(1, 1), dtype=int32)
+Predict ID: 20
+Prediction: of
+Decoder input: tf.Tensor([[20]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> what is the meaning of life ? <end>
+Predicted response: what is the biggest grouper of 
+what is your name ?
+[[1, 20, 5, 33, 132, 4, 2]]
+[[  1  20   5  33 132   4   2   0   0   0]]
+tf.Tensor([[  1  20   5  33 132   4   2   0   0   0]], shape=(1, 10), dtype=int32)
+Encoder hidden shape(batch size, units):(1, 256), output shape(batch size, sequence length, units):(1, 10, 256)
+Decoder input shape(batch size, sequence length):(1, 1), hidden shape(batch size, units):(1, 256)
+Decoder input: tf.Tensor([[1]], shape=(1, 1), dtype=int32)
+Predict ID: 49
+Prediction: yes
+Decoder input: tf.Tensor([[49]], shape=(1, 1), dtype=int32)
+Predict ID: 3
+Prediction: .
+Decoder input: tf.Tensor([[3]], shape=(1, 1), dtype=int32)
+Predict ID: 2
+Prediction: <end>
+Input: <start> what is your name ? <end>
+Predicted response: yes . 
