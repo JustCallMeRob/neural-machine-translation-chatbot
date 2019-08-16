@@ -21,10 +21,19 @@ An NMT will be trained on a dataset of comments from Reddit provided by Jason? i
   - Initialize encoder, decoder and optimizer.
   
   - Initialize a checkpointing system to save the models as they are being trained, in case of
-    having to halt the training prematurely or if we want to use analyse older models for
+    having to halt the training prematurely or if we want to analyse older models for
     comparisons.
     
   - Train the model if training has been specified, otherwise use an existing trained model.
   
   - Evaluate trained model.
 
+# Neural Network Model
+The repository contains a model trained with the following charactersistics: number of epochs = 30, batch size = 10, embedding
+dimension = 256, number of hidden recurrent units = 256, optimizer = Adam optimizer, max word length of sentences = 10, final loss = 0.9. Training data consisted of 5000 comment and responses 1-20 words long.
+Total train time was one hour. I made better models however the file size was too big for github.
+
+# Results
+![results 1](https://github.com/JustCallMeRob/neural-machine-translation-chatbot/blob/master/results/1.PNG)
+![results 2](https://github.com/JustCallMeRob/neural-machine-translation-chatbot/blob/master/results/2.PNG)
+![results 3](https://github.com/JustCallMeRob/neural-machine-translation-chatbot/blob/master/results/3.PNG)
