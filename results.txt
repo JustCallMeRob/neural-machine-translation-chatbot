@@ -1,15 +1,13 @@
-C:\Users\Zoli\AppData\Local\Programs\Python\Python36\python.exe C:/Users/Zoli/PycharmProjects/Reddit_ChatBot/main.py
-45127 45127 11282 11282
-2019-05-23 12:43:26.153302: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
-2019-05-23 12:43:26.451807: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1405] Found device 0 with properties: 
+2019-07-23 12:43:26.153302: I T:\src\github\tensorflow\tensorflow\core\platform\cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+2019-07-23 12:43:26.451807: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1405] Found device 0 with properties: 
 name: GeForce GTX 970 major: 5 minor: 2 memoryClockRate(GHz): 1.2155
 pciBusID: 0000:01:00.0
 totalMemory: 4.00GiB freeMemory: 3.30GiB
-2019-05-23 12:43:26.452318: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1484] Adding visible gpu devices: 0
-2019-05-23 12:43:27.705977: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
-2019-05-23 12:43:27.706254: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:971]      0 
-2019-05-23 12:43:27.706438: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:984] 0:   N 
-2019-05-23 12:43:27.708528: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3021 MB memory) -> physical GPU (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0, compute capability: 5.2)
+2019-07-23 12:43:26.452318: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1484] Adding visible gpu devices: 0
+2019-07-23 12:43:27.705977: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:965] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-23 12:43:27.706254: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:971]      0 
+2019-07-23 12:43:27.706438: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:984] 0:   N 
+2019-07-23 12:43:27.708528: I T:\src\github\tensorflow\tensorflow\core\common_runtime\gpu\gpu_device.cc:1097] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3021 MB memory) -> physical GPU (device: 0, name: GeForce GTX 970, pci bus id: 0000:01:00.0, compute capability: 5.2)
 (10, 10) (10, 10)
 Encoder hidden shape(batch size, units):(10, 256), output shape(batch size, sequence length, units):(10, 10, 256)
 Decoder input shape(batch size, sequence length):(10, 1), hidden shape(batch size, units):(10, 256)
