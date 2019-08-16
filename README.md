@@ -6,7 +6,7 @@ artificial conversational entities, or chatterbots using a novel new sequence-to
 from advancements in machine learning, specifically in the fields of natural language processing and 
 neural machine translation (NMT).
 
-An NMT will be trained on a dataset of comments from Reddit provided by Jason? i think, from [this link] (https://files.pushshift.io/reddit/comments)
+An NMT will be trained on a dataset of comments from Reddit provided by Jason? i think, from (this link) [https://files.pushshift.io/reddit/comments]
 
 # Functional Description
 
