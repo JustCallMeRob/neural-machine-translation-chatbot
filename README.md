@@ -11,14 +11,20 @@ An NMT will be trained on a dataset of comments from Reddit provided by Jason? i
 # Functional Description
   ● Create a dataframe if one is requested and pickle its tensor representation and tokenizers
     for later use, else use existing ones.
+    
   ● Initialize all of the training parameters such as number of epochs, buffer size, batch size,
     embedding dimension, number of hidden encoding and decoding units and determine the
     vocabulary sizes for the input corpus and the output corpus.
+    
   ● Create the batches of tensors from the dataset.
+  
   ● Initialize encoder, decoder and optimizer.
+  
   ● Initialize a checkpointing system to save the models as they are being trained, in case of
     having to halt the training prematurely or if we want to use analyse older models for
     comparisons.
+    
   ● Train the model if training has been specified, otherwise use an existing trained model.
+  
   ● Evaluate trained model.
 
