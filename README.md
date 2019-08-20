@@ -36,4 +36,4 @@ Total train time was one hour. I made better models however the file size was to
 # Results
 ![results 1](https://github.com/JustCallMeRob/neural-machine-translation-chatbot/blob/master/results/1.PNG)
 ![results 2](https://github.com/JustCallMeRob/neural-machine-translation-chatbot/blob/master/results/2.PNG)
-![results 3](https://github.com/JustCallMeRob/neural-machine-translation-chatbot/blob/master/results/3.PNG)
+![results 3](https://github.com/JustCallMeRob/neural-machine-translation-chatbot/blob/master/results/3.PNG) 
