@@ -1,4 +1,4 @@
-# Neural machine translation chatbot 
+# Neural machine translation chatbot
 
 Applying neural machine translation for the purposes of creating an artificial conversational entity. 
 The purpose of this project is to demonstrate the feasibility and implement methods of creating
