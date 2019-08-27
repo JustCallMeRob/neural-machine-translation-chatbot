@@ -26,6 +26,8 @@ An NMT will be trained on a dataset of comments from Reddit provided by Jason? i
   - Train the model if training has been specified, otherwise use an existing trained model.
   
   - Evaluate trained model.
+  
+ The project is extensibly commented so any additional information can be found in the code itself.
 
 # Neural Network Model
 The repository contains a model trained with the following charactersistics: number of epochs = 30, batch size = 10, embedding
