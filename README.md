@@ -1,4 +1,4 @@
-# Neural machine translation chatbot    
+# Neural machine translation chatbot
 
 The purpose of this project is to demonstrate the feasibility and implement methods of creating
 artificial conversational entities, or chatterbots using a novel new sequence-to-sequence techniques derived 
