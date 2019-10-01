@@ -1,4 +1,4 @@
-import tensorflow as tf
+import tensorflow as tf   
 import pickle
 from create_dataset import load_dataset
 from encoder import Encoder
