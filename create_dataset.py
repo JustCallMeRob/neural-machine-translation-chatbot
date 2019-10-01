@@ -6,7 +6,7 @@ from encoder import Encoder
 from decoder import Decoder
 import pickle
 import numpy as np
-import time
+import time  
 from evaluator import predict
 import os
 
